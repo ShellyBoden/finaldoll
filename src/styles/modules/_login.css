@@ -1,0 +1,18 @@
+@import "../styles/base/_variables.css";
+/* @import "../styles/base/_global.css"; */
+* {
+  border-radius: 0;
+}
+
+.jumbotron-bg {
+  background-color: red;
+}
+
+.login-header {
+  color: pink;
+}
+
+.btn-bg {
+  background-color: blue;
+  color: $color-white;
+}

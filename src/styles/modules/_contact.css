@@ -1,0 +1,62 @@
+.contact{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh; 
+    margin-bottom:10vh; 
+}
+
+.contact_img{
+    width: 80vh;
+}
+
+.contact_text{
+    background-color: #f5b3a8;
+    padding: 5vw;
+    font-family:  Microsoft JhengHei;
+}
+
+.pt{
+    font-size: 2.5rem;
+}
+
+.pi{
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 400px){
+    .contact{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px auto;
+        margin-top:30px; 
+        margin-bottom:10px; 
+        padding: 0px auto;
+    }
+
+    .contact_img{
+        width: 80vw;
+        margin: 0px auto;
+    }
+
+    .contact_text{
+        background-color:white;        
+        font-family:  Microsoft JhengHei;
+
+    }
+
+    .pt{
+        font-size: 1rem;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    
+    .pi{
+        font-size: 0.5rem;
+    }
+}
+
